@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Payment Result</title>
+	<link rel="stylesheet" type="text/css" href="page2.css">
+</head>
+<body>
+	<div class="flex2">
+		<header>
+						<div class="tex1">
+							<center>
+						<h1>Insurance <b>Company</b></h1>
+						</center>
+						</div>
+					</header>
+					<article>
+		<div class="containere1">
+			<div>
+				<div class="container">
+					<div id="t1">Your Name : </div>
+					<div id="t2">
+						<form>
+							<input style="border-radius: 25px" type="text" id="fname" name="fname" value=""/>
+						</form>
+					</div>
+				</div>
+
+				<div>
+					<div class="container">
+						<div id="t1">Age : </div>
+					<div id="t2">
+						<form>
+							<input style="border-radius: 25px" type="text" id="age" name="age" value="" />
+						</form>
+					</div>
+				</div>
+
+				<div>
+					<div class="container">
+						<div id="t1">Country : </div>
+				   <div id="t2"> 
+				    <select id="country" name="country">
+				      <option value="Germany" style="border-radius: 25px">Germany</option>
+				      <option value="Austria">Austria</option>
+				      <option value="Italy">Italy</option>
+				    </select>
+					</div>
+				</div>
+
+				<div>
+					<div class="container">
+						<div id="t1">Horsepower : </div>
+					<div id="t2">
+						<form>
+							<input style="border-radius: 25px" type="text" id="hrpower" name="hrpower" value="" />
+						</form>
+					</div>
+				</div>
+
+		</div>
+		
+			<button type="submit" from="cal" value="submit" onclick="calculateInsurance()"  class="b2">Calculate</button>
+			
+
+	</article>
+		<footer>
+				<script src="page2.js" type="text/javascript" charset="utf-8" async defer></script>
+				<center>
+				<p>your insurance payment is about : </p>
+				<p id="result"></p>
+			</center>
+		</footer>
+
+</div>	
+</body>
+</html>

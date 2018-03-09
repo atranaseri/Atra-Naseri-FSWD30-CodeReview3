@@ -1,0 +1,138 @@
+
+	.flex{
+	display: flex;
+	-webkit-flex-flow: column;
+
+
+	}
+	.flex > *{
+	min-width: 100px;
+	min-height: 100px;
+	-webkit-flex-grow: 1;
+
+	}
+
+	header{
+	background: #F4F4F4;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+
+	}
+	 h1{
+		color: #D98753;
+		font-size: 40px;
+	}
+
+	article{
+	background: #5A9E8D;
+	height: 400px;
+	justify-content: center;
+	justify-items: center;
+
+	}
+	.text2 h1{
+	color: #324451;
+	font-size: 30px;
+	}
+
+	#products{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	justify-content: space-between;
+	}
+
+	#products > div{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	}
+
+
+	.pic1{
+		display: flex;
+		flex-flow: row;
+		flex-flow: column;
+		width:300px;
+	   height:300px;
+	   background:url('person3%20(1).png');
+	   background-size: 200px 200px;
+	   background-repeat: no-repeat;
+	   margin-left: 50px;
+	}
+
+	.pic2{
+
+		display: flex;
+		flex-flow: row;
+		flex-flow: column;
+		align-items: center;
+		width:300px;
+	   height:300px;
+	   background:url('person2%20(1).png');
+	   background-size: 200px 200px;
+	   background-repeat: no-repeat;
+		
+	}
+
+	.pic3{
+		display: flex;
+		flex-flow: row;
+		flex-flow: column;
+		width:300px;
+	   height:300px;
+	   background:url('person1%20(1).png');
+	   background-size: 200px 200px;
+	   background-repeat: no-repeat;
+	}
+	.text3{
+		margin-top: 200px;
+		margin-right: 150px;
+		margin-left: 40px;
+		color: white;
+	}
+
+	.text4{
+		margin-top: 200px;
+		margin-right: 150px;
+		margin-left: 40px;
+		color: white;
+	}
+
+	.text5{
+		margin-top: 200px;
+		margin-right: 150px;
+		margin-left: 40px;
+		color: white;
+	}
+
+
+	footer{
+	background: #F4F4F4;
+	height: 200px;
+	}
+
+	#b1{
+		background: linear-gradient(#F9F9F9,#CBCBCB,#929292);
+		
+		width: 400px;
+		height: 90px;
+		line-height: 50px;
+	
+		display: block;
+		margin: 3rem auto;
+		font-weight: bold;
+		font-size:30px;
+		color:#324451;
+		flex-grow: 1;
+		border-radius: 20px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5),1px 1px 5px rgba(0, 0, 0, 0.3);
+		word-spacing: 20px;
+		letter-spacing: 10px;
+		
+	}
+	#b1:hover{
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24) , 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+	}
+
